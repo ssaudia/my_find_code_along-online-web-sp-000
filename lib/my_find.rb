@@ -10,8 +10,8 @@ def my_find(collection)
 end
 
 puts my_find(collection) {|i| i % 3 == 0 and i % 5 == 0 }
-puts 
-puts 
+puts
+puts
 puts "Here is the Second set"
 
 def my_find2(collection)
